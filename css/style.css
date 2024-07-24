@@ -741,6 +741,15 @@ footer{
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    .wraperMaps {
+        width: 100%;
+    }
+
+    .boxContato{
+        display: flex;
+        flex-direction: column !important;
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -772,6 +781,11 @@ footer{
     .banner-text h2 {
         color: white;
         font-size: 21px;
+    }
+
+    .wraperMaps .socialMedia {
+        display: flex;
+        flex-direction: column;
     }
     
 }
