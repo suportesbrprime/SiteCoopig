@@ -30,6 +30,7 @@ justify-content: center;
 header{
     position: relative;
     background-color: #266E43;
+    padding: 15px 0;
 }
 
 .header-container{
@@ -69,21 +70,19 @@ header{
     padding-right: 20px;
 }
 
-.menu-desktop nav ul li button{
-    text-decoration: none;
-    transition: 1s;
-    color: white;
-    background: transparent;
-    border: 0;
-    
-}
-
-.menu-desktop nav ul li button a{
+.menu-desktop nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 19px;
     font-weight: 500;
     cursor: pointer;
+    padding: 0 5px;
+}
+
+.menu-desktop nav ul li a:hover{
+    color: rgb(206, 206, 206);
+    transition: color 300ms;
+    transition-timing-function: ease-in;
 }
 
 .menu-desktop nav ul li button:hover {
@@ -164,8 +163,12 @@ header{
     text-align: center;
     padding-bottom: 30px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+#solucao .container{
+    display: block;
 }
 
 .sbr{
@@ -194,6 +197,15 @@ header{
     font-size: 20px;
     color: var(--corPrimaria);
     margin-bottom: 20px;
+}
+
+.imgFluxo{
+    margin: 60px 0;
+}
+
+.imgFluxo img{
+    width: 100%;
+    max-width: 1000px;
 }
 
 #caracteristicas {
@@ -451,8 +463,9 @@ section.objetivos h3{
 
 .wraperMaps a {
     display: block;
-    margin: 15px 10px;
+    margin: 15px 8px;
     padding: 5px 8px;
+    font-size: 15px;
     font-weight: 500;
     color: var(--corPrimaria);
     text-decoration: none;
@@ -497,6 +510,54 @@ input, textarea {
 }
 button:hover {
     background-color: #218838;
+}
+
+
+/*SISTEMA*/
+
+.telaBlogSistema{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wraperBlogSistema{
+    width: 100%;
+    max-width: 1440px !important;
+    padding-bottom: 20px;
+    margin-top: 20px    ;
+    border-bottom: 2px solid var(--corPrimaria);
+}
+
+.wraperBlogSistema h3{
+    color: var(--corPrimaria);
+    margin-bottom: 10px;
+}
+
+.wraperBlogSistema img{
+    width: 100%;
+}
+
+.texto{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.texto p{
+    margin: 20px 0;
+}
+
+.texto ul li b{
+    color: var(--corPrimaria);
+}
+
+.texto ul{
+    padding: 0 15px;
+    list-style-type: decimal;
+}
+
+.texto ul li{
+    padding: 10px 0;
 }
 
 /*FOOTER*/
@@ -612,6 +673,28 @@ footer{
     color: white;
 }
 
+.termos {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.termos p,
+.termos a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.termos a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -679,15 +762,7 @@ footer{
         border-bottom: 1px solid white;
         text-align: center;
     }
-    .menu-mobile ul li button {
-        transition: 1s;
-        color: white;
-        background: transparent;
-        border: 0;
-        cursor: pointer;
-    }
-
-    .menu-mobile nav ul li button a{
+    .menu-mobile nav ul li a{
         text-decoration: none;
         color: white;
         font-size: 19px;
@@ -774,6 +849,17 @@ footer{
         width: 100%;
         margin-bottom: 30px;
     }
+
+    .termos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .termos p,
+    .termos a {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
