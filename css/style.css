@@ -178,11 +178,12 @@ header{
 }
 
 .sbr p{
+    text-align: justify;
     font-size: 20px;
 }
 
 .sbr h3{
-    font-size: 20px;
+    font-size: 30px;
     color: var(--corPrimaria);
     margin-bottom: 20px;
 }
@@ -194,9 +195,13 @@ header{
 }
 
 .initialText h3{
-    font-size: 20px;
+    font-size: 30px;
     color: var(--corPrimaria);
     margin-bottom: 20px;
+}
+
+.initialText p{
+    text-align: justify;
 }
 
 .imgFluxo{
@@ -214,21 +219,21 @@ header{
     text-align: center;
 }
 
-#caracteristicas .container {
+/* #caracteristicas .container {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 #caracteristicas h3 {
-    font-size: 20px;
+    font-size: 30px;
     color: var(--corPrimaria);
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .imgCaracteristicas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 40px;
     border-bottom: 1px solid var(--corPrimaria);
 }
@@ -237,12 +242,25 @@ header{
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.imgCaracteristicas .wraperImg p{
+    font-size: 18px;
 }
 
 .imgCaracteristicas .wraperImg img {
     max-width: 100%;
 }
 
+.cardsCaracterísticas{
+    display: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 2px solid var(--corPrimaria);
+    border-radius: 10px;
+    margin-top: 30px;
+}
 /*Mosaico */
 
 section.objetivos{
@@ -255,7 +273,7 @@ section.objetivos{
 
 section.objetivos h3{
     color: var(--corPrimaria);
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -299,7 +317,7 @@ section.objetivos h3{
 .item-2-mosaico p{
 
     color: black;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* INTEGRAÇÃO */
@@ -391,7 +409,8 @@ section.objetivos h3{
 
 .blogIntegracao h3{
     color: var(--corPrimaria);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .blogIntegracao img{
@@ -400,7 +419,7 @@ section.objetivos h3{
     height: 100%;
     max-height: 600px;
     border-radius: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .blogIntegracao .videoCont{
@@ -418,6 +437,7 @@ section.objetivos h3{
     border-radius: 10px;
     border: 2px solid var(--corPrimaria);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
   }
 
 .blogIntegracao p{
@@ -438,6 +458,7 @@ section.objetivos h3{
 .contato h3{
     margin: 40px 0;
     color: var(--corPrimaria);
+    font-size: 30px;
 }
 .boxContato {
     display: flex;
@@ -449,7 +470,9 @@ section.objetivos h3{
     margin-right: 20px;
 }
 
-.wraperMaps iframe{
+.wraperMaps img{
+    width: 100%;
+    max-width: 600px;
     border: 3px solid var(--corPrimaria);
     border-radius: 10px;
 }
@@ -531,11 +554,16 @@ button:hover {
 
 .wraperBlogSistema h3{
     color: var(--corPrimaria);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .wraperBlogSistema img{
     width: 100%;
+}
+
+.wraperBlogSistema p,ul{
+    font-size: 20px;
 }
 
 .texto{
@@ -805,9 +833,19 @@ button:hover {
 }
 
 @media screen and (max-width: 770px) {
-    .imgCaracteristicas .wraperImg {
-        width: 50%;
+
+    .imgCaracteristicas{
+        display: block;
+        text-align: center;
+        width: 100%;
     }
+
+     .imgCaracteristicas .wraperImg {
+        width: 100%;
+    }
+    /*
+    .imgCaracteristicas .wraperImg .cardsCaracterísticas {
+    } */
 
     .textUp{
        display: block;
