@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function autoplay() {
         if (glider.slide + 1 >= glider.slides.length) {
-            glider.scrollItem(0); // Volta para a primeira slide
+            glider.scrollItem(0); 
         } else {
             glider.scrollItem(glider.slide + 1);
         }

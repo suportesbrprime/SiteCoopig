@@ -776,146 +776,184 @@ button:hover {
 
     /*FOOTER*/
 
-    footer{
-        width: 100%;
-        background-color: rgba(15, 23, 42);
-    }
+footer{
+    width: 100%;
+    background-color: rgba(15, 23, 42);
+}
 
-    .textFooter{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 0 2%;
-        color: white;
-        padding: 20px 0;
-    }
+.textFooter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2%;
+    color: white;
+    padding: 20px 0;
+}
 
-    .textUp{
-        margin-bottom: 30px;
-    }
+.textUp{
+    margin-bottom: 30px;
+}
 
-    .pickingUp {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        color: white;
-    }
-    
-    .pickingUp p {
-        margin-bottom: 10px; 
-    }
-    
-    .pickingUp img {
-        width: 100%;
-        max-width: 137px;
-        margin: 5px;    
-    }
+.pickingUp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
 
-    .logosSolucoes img{
-        margin-right: 40px;
-    }
+.pickingUp p {
+    margin-bottom: 10px; 
+}
 
-    .redes{
-        display: flex;
-        flex-direction: column;
-        margin: 80px 30px 0 30px;
-    }
+.pickingUp img {
+    width: 100%;
+    max-width: 137px;
+    margin: 5px;    
+}
 
-    .redes img{
-        width: 200px;
-    }
+.logosSolucoes img{
+    margin-right: 40px;
+}
 
-    .formContato{
-        padding: 0 20px;
-        margin-bottom: 30px;
-        color: white;
-    }
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 30px 0 30px;
+}
 
-    .formContato h4{
-        margin: 10px 0;
-    }
+.redes img{
+    width: 200px;
+}
 
-    .formContato form{
-        display: flex;
-        flex-direction: column;
-    }
+.formContato{
+    padding: 0 20px;
+    margin-bottom: 30px;
+    color: white;
+}
 
-    .formContato form input[type=text]{
-        outline: none;
-        width: 330px;
-        padding: 5px 5px;
-        border-radius: 5px;
-        border: 0;
-        margin-bottom: 10px;  
-    }
+.formContato h4{
+    margin: 10px 0;
+}
 
-    .formContato form input[type=email]{
-        outline: none;
-        width: 330px;
-        padding: 5px 5px;
-        border-radius: 5px;
-        border: 0;
-        margin-bottom: 10px;  
-    }
+.formContato form{
+    display: flex;
+    flex-direction: column;
+}
 
-    .formContato form input[type=tel]{
-        outline: none;
-        width: 330px;
-        padding: 5px 5px;
-        border-radius: 5px;
-        border: 0;
-        margin-bottom: 10px;  
-    }
+.formContato form input[type=text]{
+    outline: none;
+    width: 330px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;  
+}
 
-    .formContato form textarea{
-        outline: none;
-        width: 330px;
-        height: 100px;
-        padding: 5px 5px;
-        resize: vertical;
-        border-radius: 5px;
-        border: 0;
-        margin-bottom: 10px;  
-    }
+.formContato form input[type=email]{
+    outline: none;
+    width: 330px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;  
+}
 
-    .formContato form button{
-        width: 100px;
-        border-radius: 5px;
-        border: 0;
-        font-size: 17px;
-        background-color: white;
-        transition: 1.5s;
-    }
+.formContato form input[type=tel]{
+    outline: none;
+    width: 330px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;  
+}
 
-    .formContato form button:hover{
-        background-color: #5b5353;
-        border: 1px solid white;
-        color: white;
-    }
+.formContato form textarea{
+    outline: none;
+    width: 330px;
+    height: 100px;
+    padding: 5px 5px;
+    resize: vertical;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;  
+}
 
-    .termos {
-        width: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 30px;
-        padding: 10px 0;
-    }
+.formContato form button{
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 17px;
+    background-color: white;
+    transition: 1.5s;
+}
 
-    .termos p,
-    .termos a {
-        margin: 0 15px;
-        color: white;
-        text-decoration: none;
-    }
+.formContato form button:hover{
+    background-color: #5b5353;
+    border: 1px solid white;
+    color: white;
+}
 
-    .termos a:hover {
-        text-decoration: underline;
-    }
+.termos {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.termos p,
+.termos a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.termos a:hover {
+    text-decoration: underline;
+}
 
 
+/* PARCEIROS */
+
+.logoParceiros {
+    margin: 100px;
+}
+
+.logoParceiros h3 {
+    font-size: 30px;
+    color: var(--corPrimaria);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.logoParceiros .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logoParceiros .boxImg {
+    flex: 0 0 30%; 
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.logoParceiros .boxImg img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid var(--corPrimaria);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.logoParceiros .boxImg img:hover {
+    transform: scale(1.2);
+}
 
 
 
