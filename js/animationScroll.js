@@ -1,1 +1,1 @@
-ScrollReveal().reveal('.box-objetivos', { delay: 400 });
+ScrollReveal().reveal('.box-objetivos', { delay: 200 });
