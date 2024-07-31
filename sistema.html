@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Coopig</title>
+    <style>
+        #banner{
+            left: 1600px;
+            animation: moveAndReturn 1s ease-out forwards;
+        }
+
+        @keyframes moveAndReturn {
+            0% {
+                left: 1600px;
+            }
+            70% {
+                left: -30px; /* Overshoot */
+            }
+            100% {
+                left: 0px; /* Posição final */
+            }
+        }
+    </style>
+    
 </head>
 <body>
     <header>
@@ -35,7 +54,7 @@
                         <ul>
                             <li><a href="index.html">Quem Somos</a></li>
                             <li><a href="sistema.html">Sistema</a></li>
-                            <li><a href="integração.html">Integração</a></li>
+                            <li><a hretf="integração.html">Integração</a></li>
                             <li><a href="Parceiros.html">Parceiros</a></li>
                             <li><a href="Contato.html">Contato</a></li>
                         </ul>
