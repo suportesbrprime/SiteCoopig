@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    animationBanner()
-
     function autoplay() {
         if (glider.slide + 1 >= glider.slides.length) {
             glider.scrollItem(0); 
