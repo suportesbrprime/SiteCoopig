@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="O Coopig nasceu no oeste de Santa Catarina, o polo de produção de proteína animal do país. Auxiliamos a aumentar a produtividade e eficiência na produção de suínos e aves através de soluções inovadoras de gestão e automação.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Coopig</title>
@@ -21,6 +23,7 @@
                         <li><a href="index.html">Quem Somos</a></li>
                         <li><a href="sistema.html">Sistema</a></li>
                         <li><a href="integração.html">Integração</a></li>
+                        <li><a href="Parceiros.html">Parceiros</a></li>
                         <li><a href="Contato.html">Contato</a></li>
                     </ul>
                 </nav>
@@ -35,6 +38,7 @@
                             <li><a href="index.html">Quem Somos</a></li>
                             <li><a href="sistema.html">Sistema</a></li>
                             <li><a href="integração.html">Integração</a></li>
+                            <li><a href="Parceiros.html">Parceiros</a></li>
                             <li><a href="Contato.html">Contato</a></li>
                         </ul>
                 </nav>    
@@ -43,6 +47,38 @@
     </header>
 
     <section id="banner">
+        <div class="glider-contain">
+            <div class="glider">
+                <div class="image-banner">
+                    <img src="./Images/solucao/bannerInicial.jpg" alt="Banner 1">
+                    <div class="container banner-container">
+                        <div class="banner-text">
+                            <h2 style="font-size: clamp(10px, 5vw, 30px);">Inovação e eficiência na gestão de granjas</h2>
+                            <p>Gerenciando sua Granja com Eficiência,<br>
+                                transformando seus desafios em oportunidades</p>
+                            <button><a href="https://wa.me/556781775552?text=">Contrate Agora!</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-banner">
+                    <img src="./Images/BannerParceiros.jpg" alt="Banner 2">
+                    <div class="container banner-container">
+                        <div class="banner-text">
+                            <h2>Soluções Inteligentes para o seu Negócio</h2>
+                            <p>Aumente a produtividade e reduza custos com nossas soluções.</p>
+                            <button><a href="https://wa.me/556781775552?text=">Saiba Mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais slides conforme necessário -->
+            </div>
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+
+        </div>
+    </section>
+
+    <!-- <section id="banner">
         <div class="image-banner">
 
             <img src="./Images/solucao/bannerInicial.jpg" alt="">
@@ -57,29 +93,32 @@
             </div>
         </div>
     </div>
-</section><!-- banner -->
+</section> -->
 
 <section class="sbr">
     <div class="container">
-        <div class="sbr">
-            <h3>Quem Somos?</h3>
-            <p>SBR PRIME, empresa que atua há 13 anos no mercado focada em integrar inovação e transparência para redefinir os padrões da rastreabilidade por meio da tecnologia blockchain. Combinamos experiência em tecnologia, logística e segurança da informação para criar soluções que transformam a maneira como os negócios gerenciam e rastreiam seus produtos.
-                Somos mais do que fornecedores de soluções; somos parceiros na inovação. Trabalhamos lado a lado com nossos clientes para entender suas necessidades específicas e personalizar soluções que agreguem valor real aos seus negócios. Acreditamos que a rastreabilidade em blockchain não é apenas uma necessidade, mas uma oportunidade para transformar positivamente as operações e a confiança do cliente.</p>
-        </div>
+            <div data-aos="fade-up" class="sbr">
+                <h3>Quem Somos?</h3>
+                <!-- <p>SBR PRIME, empresa que atua há 13 anos no mercado focada em integrar inovação e transparência para redefinir os padrões da rastreabilidade por meio da tecnologia blockchain. Combinamos experiência em tecnologia, logística e segurança da informação para criar soluções que transformam a maneira como os negócios gerenciam e rastreiam seus produtos.
+                    Somos mais do que fornecedores de soluções; somos parceiros na inovação. Trabalhamos lado a lado com nossos clientes para entender suas necessidades específicas e personalizar soluções que agreguem valor real aos seus negócios. Acreditamos que a rastreabilidade em blockchain não é apenas uma necessidade, mas uma oportunidade para transformar positivamente as operações e a confiança do cliente.</p> -->
+
+                <video controls src="./videos/quemSomos4.mp4"></video>
+            </div>
     </div>
 </section>
 
-<section id="solucao">
+<section id="solucao" class="solucao">
     <div class="container">
-
-        <div class="initialText">
-            <h3>Nossa Solução</h3>
-            <p>O Coopig nasceu no oeste de Santa Catarina, o polo de produção de proteína animal do país. Auxiliamos a aumentar a produtividade e eficiência na produção de suínos e aves através de soluções inovadoras de gestão e automação. Algumas características únicas da nossa solução estão listadas abaixo.</p>
-        </div>
-
-        <div class="imgFluxo">
-            <img src="./Images/solucao/Fluxo.png" alt="">
-        </div>
+        
+            <div data-aos="fade-up" class="initialText">
+                <h3>Nossa Solução</h3>
+                <p>O Coopig nasceu no oeste de Santa Catarina, o polo de produção de proteína animal do país. Auxiliamos a aumentar a produtividade e eficiência na produção de suínos e aves através de soluções inovadoras de gestão e automação. Algumas características únicas da nossa solução estão listadas abaixo.</p>
+            </div>
+        
+            <div data-aos="zoom-in" class="imgFluxo">
+                <img src="./Images/solucao/Fluxo.png" alt="">
+            </div>
+        
     </div><!--container-->
 </section>
 
@@ -87,98 +126,166 @@
     <h3>Características Gerais</h3>
     <p style="margin: 40px 0; color: #ccc; font-size: 18px;">*Clique nos ícones*</p>
     <div class="container">
+        <div data-aos="zoom-in-ups">
+                <div class="imgCaracteristicas">
+                        <div class="wraperImg">
+                            <img class="iconCaracteristicas" src="./Images/solucao/pig.svg">
+                            <p>Entrada e saída  de animais</p>
 
-            <div class="imgCaracteristicas">
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/pig.svg">
-                    <p>Entrada e saída  de animais</p>
+                            <div class="cardsCaracterísticas">
+                                <p class="pCards">Produtor realiza o cadastro de suínos, garantindo a rastreabilidade durante a cadeia produtiva incluindo transferências e encerramento do lote com relatório do desempenho e eficiência. <button class="verTelas" data-modal="modal1">Ver Telas</button></p>
+                            </div>
+                        </div>
 
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Produtor realiza o cadastro de suínos, garantindo a rastreabilidade durante a cadeia produtiva incluindo transferências e encerramento do lote com relatório do desempenho e eficiência. </p>
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/temperatura.svg" alt="">
+                        <p>Temperatura</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Inclui registro de temperatura dentro do galpão, históricos gráficos de temperaturas durante a estadia do lote que auxilia no aumento da produtividade assegurando o bem-estar do suíno.<button class="verTelas" data-modal="modal2">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/mortalidade.svg" alt="">
+                        <p>Mortalidade e  doenças</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Auxiliar os produtores a monitorar, registar detalhadamente as mortalidades, doenças e suas causas, além de gerar relatórios relacionado à saúde do suíno e implementação de medidas preventivas no setor. <button class="verTelas" data-modal="modal3">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/consumo.svg" alt="">
+                        <p>Consumo de água e ração</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Monitoramento de consumo permitindo ajustes conforme a necessidade animal, análise por meio de gráficos que possibilitam análises para otimizar os custos com ração e água. <button class="verTelas" data-modal="modal4">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/Comunicacao.svg" alt="">
+                        <p>Comunicação direta
+                        <br>técnico e produtor</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">sanar dúvidas rotineiras com o responsável técnico especializado na área, ter um registro de conversa e agendamento prévio das visitas técnicas.<button class="verTelas" data-modal="modal5">Ver Telas</button> 
+                            </p>
+                        </div>"
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/megafone.svg" alt="">
+                        <p>Noticações e Alertas</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Para garantir uma gestão eficiente os produtores recebem notificações para inclusão de dados da produção, metas alcançadas e alertas que permitem tomadas ações corretivas. <button class="verTelas" data-modal="modal6">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/Agenda.svg" alt="">
+                        <p>Agenda do técnico</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Fornece organização e otimização do profissional de campo com agendamento de tarefas e visitas, relatórios técnicos e acompanhamento de metas dos produtores. <button class="verTelas" data-modal="modal7">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/target.svg" alt="">
+                        <p>Gestão de metas
+                        <br>definidas pela cooperativa</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards">Análise do desempenho de cada produtor e da cooperativa por meio de gráficos, geração de relatórios da produção e cadastros gerais que garantem rapidez na inclusão de dados pelo produtor. <button class="verTelas" data-modal="modal8">Ver Telas</button></p>
+                        </div>
+                    </div>
+
+                    <div class="wraperImg">
+                        <img class="iconCaracteristicas" src="./Images/solucao/grafico.svg" alt="">
+                        <p>Relatórios e gráficos</p>
+
+                        <div class="cardsCaracterísticas">
+                            <p class="pCards"> Todos os perfis inclusos na plataforma têm acesso aos relatórios do andamento do lote, intervenções e metas atingidas. Proporcionando análise técnica para melhorias na produção e gráficos que ajudam a transformar dados brutos em informações úteis para uma gestão mais eficiente. <button class="verTelas" data-modal="modal9">Ver Telas</button></p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/temperatura.svg" alt="">
-                    <p>Temperatura</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Inclui registro de temperatura dentro do galpão, históricos gráficos de temperaturas durante a estadia do lote que auxilia no aumento da produtividade assegurando o bem-estar do suíno.</p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/mortalidade.svg" alt="">
-                    <p>Mortalidade e  doenças</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Auxiliar os produtores a monitorar, registar detalhadamente as mortalidades, doenças e suas causas, além de gerar relatórios relacionado à saúde do suíno e implementação de medidas preventivas no setor. </p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/consumo.svg" alt="">
-                    <p>Consumo de água e ração</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Monitoramento de consumo permitindo ajustes conforme a necessidade animal, análise por meio de gráficos que possibilitam análises para otimizar os custos com ração e água. </p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/Comunicacao.svg" alt="">
-                    <p>Comunicação direta
-                    <br>técnico e produtor</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">sanar dúvidas rotineiras com o responsável técnico especializado na área, ter um registro de conversa e agendamento prévio das visitas técnicas. 
-                        </p>
-                    </div>"
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/megafone.svg" alt="">
-                    <p>Noticações e Alertas</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Para garantir uma gestão eficiente os produtores recebem notificações para inclusão de dados da produção, metas alcançadas e alertas que permitem tomadas ações corretivas. </p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/Agenda.svg" alt="">
-                    <p>Agenda do técnico</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Fornece organização e otimização do profissional de campo com agendamento de tarefas e visitas, relatórios técnicos e acompanhamento de metas dos produtores. </p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/target.svg" alt="">
-                    <p>Gestão de metas
-                    <br>definidas pela cooperativa</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards">Análise do desempenho de cada produtor e da cooperativa por meio de gráficos, geração de relatórios da produção e cadastros gerais que garantem rapidez na inclusão de dados pelo produtor. </p>
-                    </div>
-                </div>
-
-                <div class="wraperImg">
-                    <img class="iconCaracteristicas" src="./Images/solucao/grafico.svg" alt="">
-                    <p>Relatórios e gráficos</p>
-
-                    <div class="cardsCaracterísticas">
-                        <p class="pCards"> Todos os perfis inclusos na plataforma têm acesso aos relatórios do andamento do lote, intervenções e metas atingidas. Proporcionando análise técnica para melhorias na produção e gráficos que ajudam a transformar dados brutos em informações úteis para uma gestão mais eficiente.</p>
-                    </div>
-                </div>
-            </div>
+        </div>
     </div>
 </section>
+
+<div id="modal1" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/TelaEntradaAnimais.png" alt="">
+        <img src="./Images/TelasModal/telaSaidaAnimais.jpeg" alt="">
+    </div>
+</div>
+
+<div id="modal2" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaTemperatura.png" alt="">
+    </div>
+</div>
+
+<div id="modal3" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaMortalidade.png" alt="">
+    </div>
+</div>
+
+<div id="modal4" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaConsumoAgua.png" alt="">
+        <img src="./Images/TelasModal/telaConsumoRacao.png" alt="">
+    </div>
+</div>
+
+<div id="modal5" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaComunicacao.png" alt="">
+    </div>
+</div>
+
+<div id="modal6" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaNotificacoes.png" alt="">
+    </div>
+</div>
+
+<div id="modal7" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaAgenda.png" alt="">
+    </div>
+</div>
+
+<div id="modal8" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaAtualizarMetas.png" alt="">
+    </div>
+</div>
+
+<div id="modal9" class="modal">
+    <i class="fa-solid fa-x closeBtn"></i>
+    <div class="telas">
+        <img src="./Images/TelasModal/telaRelatório.png" alt="">
+    </div>
+</div>
+
 
 <section id="objetivos" class="objetivos">
         <h3>Objetivos Da Plataforma</h3>
         <div class="containerMosaico">
+            
             <div class="box-objetivos">
                 
                     <div class="item-1-mosaico">
@@ -193,6 +300,7 @@
                     </div> <!-- item-2-mosaico -->
 
             </div><!--box-pbjetivos--1-->
+        
 
             <div style="flex-direction: row-reverse;" class="box-objetivos">
 
@@ -207,23 +315,25 @@
 
                 </div> <!-- item-2-mosaico -->
 
-
             </div><!--box-pbjetivos--2-->
+        
 
-            <div class="box-objetivos">
-                
-                <div class="item-1-mosaico">
-                    <img src="./Images/solucao/image3Mos.png" alt="">
-                </div><!-- item-1-mosaico-->
+    
+        <div class="box-objetivos">
+            
+            <div class="item-1-mosaico">
+                <img src="./Images/solucao/image3Mos.png" alt="">
+            </div><!-- item-1-mosaico-->
 
-                <div class="item-2-mosaico">
-                    <p>
-                        Vem para facilitar a automação de processos e a integração de dados de diferentes áreas da granja que reduzem a necessidade de intervenções manuais e erros operacionais. Acompanha em tempo real o desempenho dos produtores e relatórios detalhados permitindo análise para tomada de decisões e formação de estratégia de manejo.  
-                    </p>
+            <div class="item-2-mosaico">
+                <p>
+                    Vem para facilitar a automação de processos e a integração de dados de diferentes áreas da granja que reduzem a necessidade de intervenções manuais e erros operacionais. Acompanha em tempo real o desempenho dos produtores e relatórios detalhados permitindo análise para tomada de decisões e formação de estratégia de manejo.  
+                </p>
 
-                </div> <!-- item-2-mosaico -->
+            </div> <!-- item-2-mosaico -->
 
         </div><!--box-pbjetivos--3-->
+    
 
         <div style="flex-direction: row-reverse;" class="box-objetivos">
 
@@ -239,6 +349,7 @@
             </div> <!-- item-2-mosaico -->
 
         </div><!--box-pbjetivos--4-->
+            
         </div>
     </section>
 
@@ -295,10 +406,21 @@
 
     </footer>
 
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
+    <script src="js/bannerCarrosselInicial.js"></script>  
+    <script src="js/animationScroll.js"></script>  
+    <script src="js/modal.js"></script>
     <script>
+
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+            once: true
+        });
+
         const elementIcon = document.querySelectorAll('.iconCaracteristicas');
 
         $('.menu-mobile h3').click(function(){
@@ -309,6 +431,10 @@
             $(this).siblings('.cardsCaracterísticas').slideToggle()
         });
     </script>
+
+    
+    
+
 </body>
 
 

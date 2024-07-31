@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Coopig</title>
@@ -20,6 +22,7 @@
                         <li><a href="index.html">Quem Somos</a></li>
                         <li><a href="sistema.html">Sistema</a></li>
                         <li><a href="integração.html">Integração</a></li>
+                        <li><a href="Parceiros.html">Parceiros</a></li>
                         <li><a href="Contato.html">Contato</a></li>
                     </ul>
                 </nav>
@@ -34,6 +37,7 @@
                             <li><a href="index.html">Quem Somos</a></li>
                             <li><a href="sistema.html">Sistema</a></li>
                             <li><a href="integração.html">Integração</a></li>
+                            <li><a href="Parceiros.html">Parceiros</a></li>
                             <li><a href="Contato.html">Contato</a></li>
                         </ul>
                 </nav>    
@@ -42,21 +46,36 @@
     </header>
 
     <section id="banner">
-            <div class="image-banner">
-
-                <img src="./Images/Integracao/BannerSecondary-2.jpg" alt="">
-
-            <div class="container banner-container">
-                <div class="banner-text">
-                    <h2>Conectando produtores,
-                        técnicos e fábricas.</h2>
-                    <p>Unindo Produtores, Técnicos e Fábricas <br>
-                        para uma Granja de Sucesso.</p>
-                    
+        <div class="glider-contain">
+            <div class="glider">
+                <div class="image-banner">
+                    <img src="./Images/Integracao/BannerSecondary-2.jpg" alt="Banner 1">
+                    <div class="container banner-container">
+                        <div class="banner-text">
+                            <h2 style="font-size: clamp(10px, 5vw, 30px);">Inovação e eficiência na gestão de granjas</h2>
+                            <p>Gerenciando sua Granja com Eficiência,<br>
+                                transformando seus desafios em oportunidades</p>
+                            <button><a href="https://wa.me/556781775552?text=">Contrate Agora!</a></button>
+                        </div>
+                    </div>
                 </div>
+                <div class="image-banner">
+                    <img src="./Images/BannerParceiros.jpg" alt="Banner 2">
+                    <div class="container banner-container">
+                        <div class="banner-text">
+                            <h2>Soluções Inteligentes para o seu Negócio</h2>
+                            <p>Aumente a produtividade e reduza custos com nossas soluções.</p>
+                            <button><a href="https://wa.me/556781775552?text=">Saiba Mais</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais slides conforme necessário -->
             </div>
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+
         </div>
-    </section><!-- banner -->
+    </section>
 
     <section id="solucao">
         <div class="container">
@@ -206,8 +225,11 @@
 
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    
+    <script src="js/bannerCarrosselInicial.js"></script> 
+
     <script>
         $('.menu-mobile h3').click(function(){
             $('.menu-mobile ul').slideToggle()

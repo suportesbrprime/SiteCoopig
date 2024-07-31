@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Coopig</title>
@@ -20,6 +21,7 @@
                         <li><a href="index.html">Quem Somos</a></li>
                         <li><a href="sistema.html">Sistema</a></li>
                         <li><a href="integração.html">Integração</a></li>
+                        <li><a href="Parceiros.html">Parceiros</a></li>
                         <li><a href="Contato.html">Contato</a></li>
                     </ul>
                 </nav>
@@ -34,6 +36,7 @@
                             <li><a href="index.html">Quem Somos</a></li>
                             <li><a href="sistema.html">Sistema</a></li>
                             <li><a href="integração.html">Integração</a></li>
+                            <li><a href="Parceiros.html">Parceiros</a></li>
                             <li><a href="Contato.html">Contato</a></li>
                         </ul>
                 </nav>    
@@ -41,11 +44,25 @@
         </div><!--container -->
     </header>
 
+    <section id="banner">
+        <div class="image-banner">
+
+            <img src="./Images/BannerSistema.jpg" alt="">
+
+        <div class="container banner-container">
+            <div class="banner-text">
+                <h2> Interface Inovadora e Eficiente do Sistema</h2>
+                <p>Maximize o Potencial da Sua Granja <br> com Soluções Inteligentes e Práticas</p>
+            </div>
+        </div>
+    </div>
+</section><!-- banner -->
+
 
     <section class="sbr">
         <div class="container">
-            <div class="sbr">
-                <h3>Um Pouco Sobre Nosso Sistema</h3>
+            <div data-aos="fade-up" class="sbr">
+                <h3>Um pouco sobre nosso sistema</h3>
                 <p>Aqui, você terá a oportunidade de explorar algumas das principais funcionalidades e interfaces do nosso sistema. Nossa solução foi desenvolvida com foco na usabilidade, eficiência e uma experiência de usuário excepcional.
                     <br>
                     Nosso sistema foi projetado para atender às suas necessidades, seja você um gestor buscando otimizar processos, um colaborador em busca de ferramentas intuitivas ou um analista precisando de dados precisos e acessíveis. Abaixo, você encontrará uma série de capturas de tela que ilustram como nossa plataforma pode transformar a maneira como você trabalha.</p>
@@ -56,122 +73,91 @@
     <section class="blogSistema">
         <div class="container">
             <div class="telaBlogSistema">
-                <div class="wraperBlogSistema">
-                    <h3>Painel Do Técnico</h3>
+                
+                    <div class="wraperBlogSistema">
+                        <div data-aos="fade-right">
+                            <h3>Painel Do Técnico</h3>
 
-                    <img src="./Images/Sistema/PainelTécnico.png" alt="">
+                            <img src="./Images/Sistema/PainelTécnico.png" alt="">
+                        </div>
 
-                    <div class="texto">
-                    <p>A página inicial do perfil do técnico é um hub centralizado que oferece ferramentas e informações essenciais para o trabalho diário. Nela, o técnico pode agendar visitas aos produtores, comunicar-se para esclarecer dúvidas, monitorar metas e acessar os perfis individuais dos produtores. Essa abordagem integrada otimiza a gestão e facilita a tomada de decisões informadas. </p>
+                        <div data-aos="fade-right">
+                            <div class="texto">
+                                <p>A página inicial do perfil do técnico é um hub centralizado que oferece ferramentas e informações essenciais para o trabalho diário. Nela, o técnico pode agendar visitas aos produtores, comunicar-se para esclarecer dúvidas, monitorar metas e acessar os perfis individuais dos produtores. Essa abordagem integrada otimiza a gestão e facilita a tomada de decisões informadas como: Agendamento de visitas aos produtores, conversas para sanar dúvidas, acompanhamento de metas, acesso aos perfis dos produtores.</p> 
+                                <p>Em resumo, essa página centraliza informações e ferramentas essenciais para o trabalho do técnico, tornando a gestão mais eficiente e eficaz.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+                    <div class="wraperBlogSistema">
+                        <div data-aos="fade-left">
+                            <h3>Painel De Relatório Do Técnico</h3>
+
+                            <img src="./Images/Sistema/RelatorioTecnico.png" alt="">
+                        </div>
                         
-                        <ul>
-                            <li><b>Agendamento de Visitas aos Produtores:</b> Nessa seção, o técnico pode agendar visitas aos produtores. Isso é útil para planejar e organizar as interações presenciais com os produtores.</li>
-                            <li><b>Conversas para Sanar Dúvidas:</b> Aqui, o técnico pode se comunicar com os produtores para esclarecer dúvidas ou resolver problemas. Essa funcionalidade facilita a troca de informações e a resolução de questões de forma eficiente.</li>
-                            <li><b>Acompanhamento de Metas:</b> O técnico pode monitorar metas específicas relacionadas ao seu trabalho. Isso pode incluir metas de produtividade, qualidade ou outras métricas relevantes para o desempenho.</li>
-                            <li><b>Acesso aos Perfis dos Produtores:</b> Essa seção permite que o técnico acesse os perfis individuais dos produtores. Isso é útil para analisar os lançamentos diários, entender o histórico de cada produtor e tomar decisões informadas.</li>
-                        </ul>
-                        <p>Em resumo, essa página centraliza informações e ferramentas essenciais para o trabalho do técnico, tornando a gestão mais eficiente e eficaz.</p>
+                        <div data-aos="fade-left">
+                            <div class="texto">
+                            <p>Os relatórios de produção são fundamentais para o sucesso das empresas no mercado global de manufatura. Com um plano de produção robusto e atenção aos detalhes, as organizações podem prosperar. Esses relatórios não são apenas dados; eles capacitam os tomadores de decisão, podendo, otimizar processos, identificar tendências e problemas, monitorar o desempenho, coordenar internamente.</p>                
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="wraperBlogSistema">
+                    <div data-aos="fade-right">
+                        <h3>Painel Do Produtor</h3>
+
+                        <img src="./Images/Sistema/PainelProdutor.png" alt="">
+                    </div>
+
+                    <div data-aos="fade-right">
+                        <div class="texto">
+                            <p>A tela do menu do produtor é um painel centralizado que reúne diversas funcionalidades para o manejo da produção suína, desde a fase de creche até a terminação dos animais. A tela se destaca por oferecer uma visão completa e organizada das informações do lote, permitindo ao produtor acompanhar o desenvolvimento dos animais e tomar decisões mais assertivas. As funcionalidades incluem Temperatura Água Ração Doença Morte Medicações Silos e Ração e Pesagem.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="wraperBlogSistema">
-                    <h3>Painel De Relatório Do Técnico</h3>
+                    <div data-aos="fade-left">
+                        <h3>Painel Do Produtor Maternidade</h3>
 
-                    <img src="./Images/Sistema/RelatorioTecnico.png" alt="">
-                    
-                    <div class="texto">
-                    <p>Os relatórios de produção são fundamentais para o sucesso das empresas no mercado global de manufatura. Com um plano de produção robusto e atenção aos detalhes, as organizações podem prosperar. Esses relatórios não são apenas dados; eles capacitam os tomadores de decisão.</p>
-                        
-                        <ul>
-                            <li><b>Otimizar Processos:</b> Simplificam métodos de produção, fluxos de trabalho e etapas cruciais, como a montagem de produtos.</li>
-                            <li><b>Identificar Tendências e Problemas:</b> Revelam declínios na produção e estrangulamentos nos equipamentos, permitindo intervenções proativas.</li>
-                            <li><b>Monitorar o Desempenho:</b> Relatórios mensais e planilhas acompanham o progresso em relação às metas.</li>
-                            <li><b>Coordenar Internamente:</b> Facilitam a coordenação entre departamentos para manter projetos no caminho certo.</li>
-                        </ul>
-                        
+                        <img src="./Images/Sistema/PainelDoProdutorMaternidade.png" alt="">
+                    </div>
+                    <div data-aos="fade-left">
+                        <div class="texto">
+                            <p>Essa interface é intuitiva e organizada em módulos, facilitando a navegação e o acesso às informações relevantes para o produtor. Os principais módulos incluem Módulos de produção, Gerenciamento de animais, Alimentação, Saúde animal e Gerenciamento.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="wraperBlogSistema">
-                    <h3>Painel Do Produtor</h3>
+                    <div data-aos="fade-right">
+                        <h3>Painel Do Gestor</h3>
 
-                    <img src="./Images/Sistema/PainelProdutor.png" alt="">
-                    
-                    <div class="texto">
-                    <p>A tela do menu do produtor  é um painel centralizado que reúne diversas funcionalidades para o manejo da produção suína, desde a fase de creche até a terminação dos animais. A tela se destaca por oferecer uma visão completa e organizada das informações do lote, permitindo ao produtor acompanhar o desenvolvimento dos animais e tomar decisões mais assertivas</p>
-                        
-                        <ul>
-                            <li><b>Temperatura Água:</b> Possibilita o monitoramento e controle da temperatura da água fornecida aos animais, um fator crucial para a saúde e o bem-estar dos porcos.</li>
-                            <li><b>Ração:</b> Permite registrar o consumo de ração do lote, fornecendo informações importantes para a gestão da alimentação dos animais.</li>
-                            <li><b>Doença:</b> Registra a ocorrência de doenças no lote, fornecendo informações sobre o tipo de doença, quantidade de animais afetados, sintomas e medidas tomadas para o controle.</li>
-                            <li><b>Morte:</b> Registra a morte de animais no lote, informando a causa da morte, data e outras informações relevantes.</li>
-                            <li><b>Medicações: </b> Permite registrar a aplicação de medicamentos no lote, incluindo o tipo de medicamento, dose, data e outras informações importantes.</li>
-                            <li><b>Silos e Ração</b> Permite gerenciar os silos de ração e monitorar o estoque de ração disponível, garantindo a alimentação adequada dos animais.</li>
-                            <li><b>Pesagem:</b> Registra o peso dos animais periodicamente, fornecendo informações importantes sobre o desenvolvimento do lote e a eficiência da produção.</li>
-                        </ul>
-                        
+                        <img src="./Images/Sistema/PainelDoGestor.png" alt="">
                     </div>
-                </div>
 
-                <div class="wraperBlogSistema">
-                    <h3>Painel Do Produtor Maternidade</h3>
-
-                    <img src="./Images/Sistema/PainelDoProdutorMaternidade.png" alt="">
-                    
-                    <div class="texto">
-                    <p>Essa interface é intuitiva e organizada em módulos, facilitando a navegação e o acesso às informações relevantes para o produtor.</p>
-                        
-                        <ul>
-                            <li><b>Módulos de produção:</b>  A tela é dividida em módulos que representam as diferentes fases da produção suína, como cobertura, parto, cio/estro, desmame, maternidade/UPL (Unidade de Produção de Leitões), creche e terminação. Cada módulo permite o registro de dados específicos para aquela etapa, como datas, quantidade de animais, peso, etc.</li>
-                            <li><b>Gerenciamento de animais:</b> Há módulos específicos para o acompanhamento de matrizes e machos, permitindo o controle reprodutivo e a avaliação genética dos animais.</li>
-                            <li><b>Alimentação:</b> O módulo de ração possibilita o registro do consumo de ração, auxiliando no controle de custos e na formulação de dietas adequadas.</li>
-                            <li><b>Saúde animal:</b> Os módulos de morte e doenças permitem o registro de ocorrências sanitárias, auxiliando no diagnóstico de problemas e na tomada de medidas preventivas.</li>
-                            <li><b>Gerenciamento:</b> A interface oferece funcionalidades como agenda, troca de mensagens com técnicos, relatórios e análise de dados, permitindo um melhor gerenciamento da produção</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="wraperBlogSistema">
-                    <h3>Painel Do Gestor</h3>
-
-                    <img src="./Images/Sistema/PainelDoGestor.png" alt="">
-                    
-                    <div class="texto">
-                    <p>A interface apresentada oferece ao gestor da cooperativa uma visão geral das principais funcionalidades do sistema, com foco em análise de dados, acompanhamento de metas e gestão de cadastros. Através dela, o gestor pode monitorar diversos aspectos da cooperativa, desde o desempenho individual dos produtores até o consumo de recursos como água e ração.</p>
-                        
-                        <ul>
-                            <li><b>Análise por produtor:</b>  Permite ao gestor avaliar o desempenho individual de cada produtor, identificando pontos fortes e fracos.</li>
-                            <li><b>Lista de produtores:</b> Oferece uma visão geral de todos os produtores cadastrados na cooperativa, facilitando a gestão e a comunicação.</li>
-                            <li><b>Causas de mortalidade, refugos e hama:</b> Permite ao gestor identificar e analisar as principais causas de perdas na produção, auxiliando na tomada de decisões para melhorar a eficiência.</li>
-                            <li><b>Medicamentos, rações e regiões:</b> Permite ao gestor acompanhar o consumo de insumos e a distribuição geográfica dos produtores.</li>
-                            <li><b>Meta conforto térmico, consumo de água e ração: </b> Permite ao gestor acompanhar o desempenho da cooperativa em relação a metas predefinidas, como o controle da temperatura ambiente e o consumo de recursos.</li>
-                            <li><b>Painel de metas:</b> Apresenta um resumo visual do desempenho da cooperativa em relação às metas estabelecidas, facilitando a identificação de áreas que exigem atenção.</li>
-                            <li><b>Variação de temperatura (gráfico):</b> Permite ao gestor visualizar a evolução da temperatura ao longo do tempo, auxiliando na identificação de padrões e tendências.</li>
-                        </ul>
-                        
+                    <div data-aos="fade-right">
+                        <div class="texto">
+                            <p>A interface apresentada oferece ao gestor da cooperativa uma visão geral das principais funcionalidades do sistema, com foco em análise de dados, acompanhamento de metas e gestão de cadastros. Através dela, o gestor pode monitorar diversos aspectos da cooperativa, desde o desempenho individual dos produtores até o consumo de recursos como água e ração. As principais funcionalidades incluem análise por produtor, lista de produtores, causas de mortalidade, refugos e hama, medicamentos, rações e regiões, meta conforto térmico, consumo de água e ração, painel de metas e variação de temperatura (gráfico).</p>
+                        </div>
                     </div>
                 </div>
 
 
                 <div style="border: 0;" class="wraperBlogSistema">
-                    <h3>Painel De Relatórios Do Gestor</h3>
+                    <div data-aos="fade-left">
+                        <h3>Painel De Relatórios Do Gestor</h3>
 
-                    <img src="./Images/Sistema/GestorCooperativa.png    " alt="">
-                    
-                    <div class="texto">
-                    <p>A tela de relatórios e metas apresentada oferece ao gestor da cooperativa uma visão detalhada do desempenho da produção, permitindo acompanhar o progresso em relação às metas estabelecidas e identificar áreas para melhoria. Através desta interface, o gestor pode gerar relatórios personalizados e analisar diversos indicadores de desempenho, como peso médio dos animais, taxa de mortalidade e eficiência alimentar.</p>
-                        
-                        <ul>
-                            <li><b>Análise de lote:</b> Permite ao gestor analisar o desempenho de cada lote individualmente, avaliando indicadores como peso médio, taxa de crescimento e mortalidade.</li>
-                            <li><b>Comparação de produtores:</b> Permite comparar o desempenho de diferentes produtores, identificando as melhores práticas e as áreas que necessitam de maior atenção.</li>
-                            <li><b>Fêmeas gestantes:</b> Apresenta informações sobre as fêmeas gestantes, como número de animais e peso médio.</li>
-                            <li><b>Indicadores de desempenho:</b>Apresenta diversos indicadores de desempenho, como peso médio, taxa de crescimento, eficiência alimentar e conversão alimentar.</li>
-                            <li><b>Pesagens:</b> Permite visualizar o histórico de pesagens dos animais, facilitando a análise do crescimento e do desenvolvimento.</li>
-                            <li><b>Refugos:</b> Apresenta informações sobre os animais descartados, indicando as causas e o peso total dos refugos.</li>
-                            <li><b>Mortalidade:</b> Apresenta informações sobre a mortalidade dos animais, indicando as causas e o número de animais mortos.</li>
-                        </ul>
-                      
+                        <img src="./Images/Sistema/GestorCooperativa.png    " alt="">
+                    </div>
+
+                    <div data-aos="fade-left">
+                        <div class="texto">
+                            <p>A tela de relatórios e metas apresentada oferece ao gestor da cooperativa uma visão detalhada do desempenho da produção, permitindo acompanhar o progresso em relação às metas estabelecidas e identificar áreas para melhoria. Através desta interface, o gestor pode gerar relatórios personalizados e analisar diversos indicadores de desempenho, como peso médio dos animais, taxa de mortalidade e eficiência alimentar. As principais funcionalidades incluem análise de lote, comparação de produtores, indicadores de desempenho, pesagens, refugos e mortalidade.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -233,9 +219,20 @@
     </footer>
 
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    
+    <script src="js/animationScroll.js"></script>  
+
     <script>
+
+        AOS.init({
+                    duration: 1200,
+                    easing: 'ease-in-out',
+                    once: true
+                });
+
+
         $('.menu-mobile h3').click(function(){
             $('.menu-mobile ul').slideToggle()
         })
