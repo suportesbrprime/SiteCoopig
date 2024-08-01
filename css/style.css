@@ -14,7 +14,7 @@ font-family: 'Poppins';
 }
 
 body{
-background-color: white;
+    background-color: white;
 }
 
 .container {
@@ -774,6 +774,47 @@ button:hover {
     padding: 10px 0;
 }
 
+
+/* PARCEIROS */
+
+.logoParceiros {
+    margin: 100px;
+}
+
+.logoParceiros h3 {
+    font-size: 30px;
+    color: var(--corPrimaria);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.logoParceiros .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logoParceiros .boxImg {
+    flex: 0 0 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoParceiros .boxImg img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid var(--corPrimaria);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s ease;
+    margin-bottom: 30px
+}
+
+.logoParceiros .boxImg img:hover {
+    transform: scale(1.2);
+}
+
+
     /*FOOTER*/
 
 footer{
@@ -915,45 +956,6 @@ footer{
     text-decoration: underline;
 }
 
-
-/* PARCEIROS */
-
-.logoParceiros {
-    margin: 100px;
-}
-
-.logoParceiros h3 {
-    font-size: 30px;
-    color: var(--corPrimaria);
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.logoParceiros .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.logoParceiros .boxImg {
-    flex: 0 0 45%; 
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-}
-
-.logoParceiros .boxImg img {
-    width: 100%;
-    max-width: 300px;
-    border: 2px solid var(--corPrimaria);
-    border-radius: 5px;
-    padding: 5px;
-    transition: 0.5s ease;
-}
-
-.logoParceiros .boxImg img:hover {
-    transform: scale(1.2);
-}
 
 
 
