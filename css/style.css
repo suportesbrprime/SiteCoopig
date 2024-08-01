@@ -795,7 +795,7 @@ button:hover {
 }
 
 .logoParceiros .boxImg {
-    flex: 0 0 45%;
+    flex: 0 0 30%;
     display: flex;
     justify-content: center;
 }
