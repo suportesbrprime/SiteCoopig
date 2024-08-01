@@ -1166,6 +1166,29 @@ footer{
         margin-top: 20px;
     }
 
+    .logoParceiros {
+        margin: 20px;
+    }
+
+    .logoParceiros h3 {
+        font-size: 18px;
+    }
+
+    .logoParceiros .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoParceiros .boxImg {
+        margin: 10px 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .logoParceiros .boxImg img {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 450px){
