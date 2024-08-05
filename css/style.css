@@ -323,11 +323,14 @@ header{
 
 .imgFluxo{
     margin: 60px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .imgFluxo img{
     width: 100%;
     max-width: 1000px;
+    margin-left: 30px;
 }
 
 
